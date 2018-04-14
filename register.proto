@@ -1,0 +1,6 @@
+message C2S_RegisterRequest{
+	required string account = 1;
+	required string password = 2;
+	required int32 telephone = 3;
+	required string identity = 4;
+}

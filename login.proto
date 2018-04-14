@@ -1,0 +1,26 @@
+
+message C2S_LoginRequest {
+	required string account = 1;
+	required string password = 2;
+}
+
+message S2C_LoginSuccess {
+	required int32 id = 1;
+	required int32 profess = 2;
+	required int32 sex = 3;
+	required int32 grade = 4;
+	required int32 life = 5;
+	required int32 magic = 6;
+	requires int32 phyStren = 7;
+	required int32 exp = 8;
+	required int32 attackmin = 9;
+	required int32 attackMax = 10;
+	required int32 magicAttackMin = 11;
+	required int32 magicAttackMax = 12;
+	required int32 defence = 13;
+	required int32 magicDefence = 14;
+	required int32 dodge = 15;
+	required int32 endurance = 16;
+	required int32 agile = 17;
+	required int32 moveSpeed = 18;
+}
